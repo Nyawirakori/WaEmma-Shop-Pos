@@ -16,13 +16,15 @@ export default function HeroSection() {
   return (
     <div>
       <section className="relative w-full h-[60vh] flex items-center justify-center">
+        <div className="absolute inset-0 rounded-3xl overflow-hidden">
         <Image
-          src="/hero-section.jpg"
-          alt="School Bus with children"
-          fill
-          priority
-          className="object-cover"
+         src="/hero-section.jpg"
+         alt="School Bus with children"
+         fill
+         priority
+         className="object-cover"
         />
+       </div>
 
         <div className="absolute text-center text-white px-4 space-y-4">
           <h1 className="text-4xl font-bold drop-shadow-lg">

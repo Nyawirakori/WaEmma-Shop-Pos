@@ -15,7 +15,6 @@ export default function HeroSection() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* Hero Section - Full Width Image */}
       <section className="relative w-full h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <Image
@@ -25,7 +24,6 @@ export default function HeroSection() {
             priority
             className="object-cover"
           />
-          {/* Modern gradient overlay for better text readability */}
           <div className="absolute inset-0 bg-gradient-to-r from-blue-900/80 via-blue-800/60 to-teal-800/40"></div>
         </div>
 
@@ -68,8 +66,6 @@ export default function HeroSection() {
           </motion.div>
         </div>
       </section>
-
-      {/* Features Section */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
